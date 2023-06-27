@@ -41,6 +41,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i1);
             }
         });
+
+        // Implicit Intent.
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -86,6 +88,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i1);
             }
         });
+
+        // Explicit Intent.
 
         btn7.setOnClickListener(new View.OnClickListener() {
             @Override
