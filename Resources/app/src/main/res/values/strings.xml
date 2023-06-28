@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Resources</string>
+    <string name="resource2">Resources 2</string>
+    <string name="resource3">Resources 3</string>
+    <string name="resource4">Resources 4</string>
+    <string name="resource5">Resources 5</string>
+    <string name="resource6">Resources 6</string>
+    <string name="resource7">Resources 7</string>
+    <string name="resource8">Resources 8</string>
+    <string name="resource9">Resources 9</string>
+
+
+    <string name="Welcome_text">Welcome User!!!</string>
+
+    <string-array name="string_array_demo">
+        <item>java</item>
+        <item>kotlin</item>
+        <item>C++</item>
+    </string-array>
+</resources>
