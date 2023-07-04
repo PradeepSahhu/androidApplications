@@ -1,10 +1,13 @@
 package com.firstapp.androidproducts;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.View;
 import android.widget.Button;
 
@@ -23,6 +26,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+
+
+
+
+
 
         btn1 = findViewById(R.id.map);
         btn2 = findViewById(R.id.mail);
@@ -99,6 +109,21 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+
+
+
+
+
+    }
+
+
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater =getMenuInflater();
+        inflater.inflate(R.menu.menus,menu);
+        return true;
 
 
     }

@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
      android:layout_height="match_parent"
     android:layout_width="match_parent"
-    android:background="@color/black"
+    android:background="@color/Grayish_blue"
     android:orientation="vertical">
 
     <LinearLayout
@@ -46,41 +46,44 @@
         >
 
         <Button
+            android:id="@+id/linkedin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/black"
+            android:background="@color/transparent"
             android:layout_margin="20sp"
-            android:drawableTop="@drawable/map"
-            android:text="Linkedin learning"/>
+            android:drawableTop="@drawable/linkedi"
+            android:text="Linkedin App"/>
         <Button
+            android:id="@+id/github"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/black"
+            android:background="@color/transparent"
             android:layout_margin="20sp"
-            android:drawableTop="@drawable/map"
-            android:text="Linkedin learning"/>
+            android:drawableTop="@drawable/github"
+            android:text="Github"/>
         <Button
+            android:id="@+id/school"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/black"
+            android:background="@color/transparent"
             android:layout_margin="20sp"
-            android:drawableTop="@drawable/map"
-            android:text="Linkedin learning"/>
+            android:drawableTop="@drawable/schools"
+            android:text="w3-Schools"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/black"
+            android:background="@color/transparent"
             android:layout_margin="20sp"
-            android:drawableTop="@drawable/map"
-            android:text="Linkedin learning"/>
+            android:drawableTop="@drawable/folder"
+            android:text="No File"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/black"
+            android:background="@color/transparent"
             android:layout_margin="20sp"
-            android:drawableTop="@drawable/map"
-            android:text="Linkedin learning"/>
+            android:drawableTop="@drawable/folder"
+            android:text="No File"/>
 
 
 
@@ -97,45 +100,62 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/black"
+            android:background="@color/transparent"
             android:layout_margin="20sp"
-            android:drawableTop="@drawable/map"
-            android:text="Linkedin learning"/>
+            android:drawableTop="@drawable/folder"
+            android:text="No File"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/black"
+            android:background="@color/transparent"
             android:layout_margin="20sp"
-            android:drawableTop="@drawable/map"
-            android:text="Linkedin learning"/>
+            android:drawableTop="@drawable/folder"
+            android:text="No File"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/black"
+            android:background="@color/transparent"
             android:layout_margin="20sp"
-            android:drawableTop="@drawable/map"
-            android:text="Linkedin learning"/>
+            android:drawableTop="@drawable/folder"
+            android:text="No File"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/black"
+            android:background="@color/transparent"
             android:layout_margin="20sp"
-            android:drawableTop="@drawable/map"
-            android:text="Linkedin learning"/>
+            android:drawableTop="@drawable/folder"
+            android:text="No File"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/black"
+            android:background="@color/transparent"
             android:layout_margin="20sp"
-            android:drawableTop="@drawable/map"
-            android:text="Linkedin learning"/>
+            android:drawableTop="@drawable/folder"
+            android:text="No File"/>
 
 
     </LinearLayout>
 
 </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Copyright © PRADEEP SAHU"
+
+            android:textColor="@color/cream_white"
+           />
+    </LinearLayout>
 
 
 
